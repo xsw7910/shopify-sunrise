@@ -62,11 +62,20 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "e54d6c4c-af13-4452-b1e7-f6d9afc3177f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button labelxxx",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "e54d6c4c-af13-4452-b1e7-f6d9afc3177f"
       ],
       "settings": {
         "color_scheme": "background-1",
