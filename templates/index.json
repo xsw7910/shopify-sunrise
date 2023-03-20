@@ -229,6 +229,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b48a218b-44c0-4010-b48f-8d73e2f7b81e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>11111111111111111111111<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-0",
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-1",
+        "template--18168449728798__b48a218b-44c0-4010-b48f-8d73e2f7b81e-167928632871b30759-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -238,6 +288,7 @@
     "collage",
     "video",
     "multicolumn",
-    "830e6eaf-a2fb-4721-afff-4f9d9165342b"
+    "830e6eaf-a2fb-4721-afff-4f9d9165342b",
+    "b48a218b-44c0-4010-b48f-8d73e2f7b81e"
   ]
 }
