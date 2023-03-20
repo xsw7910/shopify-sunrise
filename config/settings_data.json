@@ -21,11 +21,20 @@
               "bg_color": "#fff",
               "text_color": "#000"
             }
+          },
+          "9298ac89-fe52-409b-9be0-1f6a09596814": {
+            "type": "announcement",
+            "settings": {
+              "text": "<p>AAAA<\/p>",
+              "bg_color": "#fff",
+              "text_color": "#000"
+            }
           }
         },
         "block_order": [
           "announcement-bar-0",
-          "b9e5b660-64c7-462f-a106-0e572a5beafc"
+          "b9e5b660-64c7-462f-a106-0e572a5beafc",
+          "9298ac89-fe52-409b-9be0-1f6a09596814"
         ],
         "settings": {
           "text_align": "text-center"
