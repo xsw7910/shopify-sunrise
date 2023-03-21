@@ -2,8 +2,11 @@
   "current": {
     "type_header_font": "avenir_next_n6",
     "type_body_font": "avenir_next_n4",
+    "accent_icons": "accent-1",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
+    "favicon": "shopify:\/\/shop_images\/star_png_900_750.png",
     "checkout_header_image": "shopify:\/\/shop_images\/pinecones-on-blue.jpg",
     "sections": {
       "announcement-bar": {
@@ -165,5 +168,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }
