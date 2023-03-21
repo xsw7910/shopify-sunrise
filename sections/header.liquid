@@ -12,7 +12,7 @@
           </a>
         {% endif %}
       </div>
-  {% render search-input %}
+ 
       <nav class="header__menu flex" x-data>
         <button class="md:hidden" @click="$dispatch('toggle-menu')" type="button">
           {% render 'icon-menu', class: 'w-10' %}
@@ -79,7 +79,7 @@
 
 
   {% render 'mobile-menu' %}
-  
+  {% render search-input %} 
 
 </div>
 
