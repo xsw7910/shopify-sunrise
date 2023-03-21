@@ -2,6 +2,7 @@
   "current": {
     "type_header_font": "avenir_next_n6",
     "type_body_font": "avenir_next_n4",
+    "checkout_header_image": "shopify:\/\/shop_images\/pinecones-on-blue.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
