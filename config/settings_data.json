@@ -2,12 +2,6 @@
   "current": {
     "type_header_font": "avenir_next_n6",
     "type_body_font": "avenir_next_n4",
-    "accent_icons": "accent-1",
-    "social_twitter_link": "https:\/\/twitter.com\/shopify",
-    "predictive_search_show_vendor": true,
-    "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/star_png_900_750.png",
-    "checkout_header_image": "shopify:\/\/shop_images\/pinecones-on-blue.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -31,6 +25,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/unick-logo_1.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -45,6 +40,7 @@
           "53c1c391-33d3-4045-94f0-77c637d06874": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/unick-logo_1.png",
               "image_width": 100,
               "alignment": "center"
             }
@@ -60,14 +56,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Company",
-              "menu": ""
+              "menu": "company"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": ""
+              "menu": "products"
             }
           }
         },
@@ -168,10 +164,5 @@
         }
       }
     }
-  },
-  "platform_customizations": {
-    "custom_css": [
-
-    ]
   }
 }

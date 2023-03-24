@@ -1370,9 +1370,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .header {
   display: grid;
-  grid-template-areas: "header-logo header-menu header-icons";
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "header-logo header-search header-menu header-icons";
+  grid-template-columns: 1fr 1fr 2fr 1fr;
 }
+
 .header .header__logo {
   grid-area: header-logo;
 }
