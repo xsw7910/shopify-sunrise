@@ -1,0 +1,37 @@
+{% assign discount_percentage = product.compare_at_price_max | minus: product.price | times: 100 | divided_by: product.compare_at_price_max | round %}
+
+
+<div class="bg-white rounded-lg shadow-lg overflow-hidden relative ">
+  {% if product.compare_at_price_max > product.price %}
+    <div
+      class="absolute top-0 left-0">
+      <div class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-green-500 text-white font-bold text-xs" style="position: relative; top: 10px; left: 10px;">
+        {{ discount_percentage }}%
+      </div>
+    </div>
+  {% endif %}
+
+
+  <a href="{{ product.url }}">
+    <div>
+      {% if product.featured_image %}
+        <img
+          src="{{ product.featured_image | img_url: '300x' }}"
+          class="w-full h-auto justify-center"
+          alt="{{ product.title }}"
+          loading="lazy">
+      {% else %}
+        <img
+          class="w-full h-auto justify-center"
+          src="{{ placeholder_url }}"
+          alt="{{ product.title }}">
+      {% endif %}
+    </div>
+    <div class="p-2 ">
+      <h3 class="truncate overflow-ellipsis tooltip" title="{{ product.title }}">{{ product.title }}</h3>
+      <p class="price">{{ product.price | money }}</p>
+      <p class="vendor">{{ product.vendor }}</p>
+    </div>
+
+  </a>
+</div>
